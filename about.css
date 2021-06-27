@@ -37,6 +37,24 @@ body{
     margin-left: 30px;
     justify-content: space-evenly;
 }
+.certi{
+    margin-top: 20px;
+}
+.certi .C{
+    font-size: 30px;
+    font-weight: 500;
+    color: yellow;
+    margin-left: 20px;
+}
+.certi .img{
+    margin-top: 30px;
+}
+.certi .img .I{
+    margin-left: 20px;
+}
+ .certi .img .Img{
+     margin-left: 30px;
+ }
 @media screen and (max-width:768px){
     .self .title{
         font-size: 37px;
@@ -49,6 +67,9 @@ body{
     .self .content{
         font-size: 20px;
         font-size: 400;
+    }
+    .certi .img{
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 640px) {
@@ -63,5 +84,15 @@ body{
     .self .content{
         font-size: 20px;
         font-weight: 420;
+    }
+    .certi .img{
+        flex-direction: column;
+    }
+    .certi .img .I{
+        margin-left: 27px;
+    }
+    .certi .img .Img{
+        margin-right: 25px;
+        margin-top: 30px;
     }
 }

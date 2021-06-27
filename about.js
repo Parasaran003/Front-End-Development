@@ -30,4 +30,6 @@ timeline.from('body',{
  }).from('.self .img',{
      opacity:0,
      y:'50px',
+ }).from('.certi .img',{
+     opacity:0,
  })

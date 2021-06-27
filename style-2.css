@@ -305,6 +305,7 @@ a{
     @media screen and (max-width: 640px) {
         .navbar {
           padding: 0px 30px;
+          display: block;
         }
         .hero .overlay .title {
           color: var(--bizWhite);
